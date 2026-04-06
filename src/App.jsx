@@ -2,6 +2,7 @@
 import './App.css'
 import Pagination from './common/Pagination';
 import CommonTable from './components/commonTable';
+import SearchBox from './components/debounceSearch';
 import NumberFormatter from './components/NumberFormatter';
 import SearchFilter from './components/SearchFilter';
 import ExamplePage from './Learnings/States/stateExample';
@@ -18,7 +19,8 @@ function App() {
 
 {/* <NumberFormatter/> */}
 {/* <SearchFilter/> */}
-<ExamplePage/>
+{/* <ExamplePage/> */}
+<SearchBox/>
    </>
  ); 
 }
